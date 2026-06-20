@@ -52,13 +52,7 @@ npm run dev
 http://localhost:5173
 ```
 
-## 🔑 Environment Variables
 
-Create a `.env` file in the root directory and add:
-
-```env
-VITE_WEATHER_API_KEY=your_api_key_here
-```
 
 ## 📂 Project Structure
 
@@ -71,7 +65,7 @@ react-weather-app/
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
-├── .env
+├
 ├── package.json
 ├── vite.config.js
 └── README.md
