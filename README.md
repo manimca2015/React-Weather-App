@@ -1,16 +1,108 @@
-# React + Vite
+# 🌤️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built with **React** and **Vite**. It allows users to search for any city and view real-time weather information, including temperature, humidity, wind speed, and weather conditions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔍 Search weather by city name
+* 🌡️ Real-time temperature display
+* 💧 Humidity information
+* 🌬️ Wind speed details
+* 🌥️ Weather condition icons
+* 📱 Responsive design for mobile and desktop
+* ⚡ Fast performance powered by Vite
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React**
+* **Vite**
+* **JavaScript**
+* **CSS**
+* **OpenWeatherMap API** (or your weather API)
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-weather-app.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd react-weather-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+## 📂 Project Structure
+
+```text
+react-weather-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 📸 Screenshot
+
+Add a screenshot of your application here:
+
+<img src="./screenshots/1.png" width="400" alt="Weather App Screenshot">
+
+<img src="./screenshots/2.png" width="400" alt="Weather App Screenshot">
+
+<img src="./screenshots/3.png" width="400" alt="Weather App Screenshot">
+
+
+
+## 📖 Usage
+
+1. Enter a city name in the search box.
+2. Click the search button.
+3. View current weather details instantly.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
