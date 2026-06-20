@@ -79,13 +79,11 @@ react-weather-app/
 
 ## 📸 Screenshot
 
-Add a screenshot of your application here:
+<img src="./screenshots/1.png" alt="Weather App Screenshot">
 
-<img src="./screenshots/1.png" width="400" alt="Weather App Screenshot">
+<img src="./screenshots/2.png" alt="Weather App Screenshot">
 
-<img src="./screenshots/2.png" width="400" alt="Weather App Screenshot">
-
-<img src="./screenshots/3.png" width="400" alt="Weather App Screenshot">
+<img src="./screenshots/3.png" alt="Weather App Screenshot">
 
 
 
